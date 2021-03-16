@@ -1,0 +1,66 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    font-family:Oxygen-Light ;
+}
+.navbar .nav-link{
+    color: #f1f1f1!important;
+}
+#wrapper{
+    /* border: 1px solid red; */
+    min-height: 200px;
+    overflow-x: hidden;
+}
+#wrapper h1{
+    font-family:Ubuntu-Bold ;
+}
+#sidebar ul{
+ padding: 1px;
+ font-family:Oxygen-light ;
+}
+#sidebar ul li{
+    line-height: 1.7;
+}
+ label{
+    font-weight: bold;
+    font-family:Oxygen-Light ;
+}
+#User_login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#User_login .container{
+    width: 40%;
+}
+ .container h1{
+    font-size: 2.1rem;
+    font-family:Ubuntu-Bold ;
+    text-shadow: -4px -3px  #000000 ,-4px -3px  #000000;
+}
+
+/* Foonts */
+@font-face{
+    font-family:Oxygen-Light ;
+    src: url("../fonts/Oxygen-Light.ttf");
+}
+@font-face{
+    font-family:Ubuntu-Bold ;
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+@font-face{
+    font-family:Ubuntu-Regular ;
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
